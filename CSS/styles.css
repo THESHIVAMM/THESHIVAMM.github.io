@@ -1,0 +1,196 @@
+/****************TAG SELECTOR****************/
+span {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 562.5%;/*16px = 100% = 1em.So, 562.5% = 90px = 5.625em*/
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  margin: 100px auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+body {
+  margin: 0;
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  /* OR
+  BUT THE ABOVE ONE IS SIMPLE AND SHORT. SO USE THE ABOVE ONE
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  */
+}
+
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border:dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+}
+
+p{
+    line-height: 2;
+}
+/****************CLASS SELECTOR****************/
+.top-container {
+  background-color: #E4F9F5;
+  height: 700px;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+  /*border-color: red;*/
+}
+
+.profile-pic{
+  border-radius: 100%;
+  height: 160px;
+  width: 160px;
+
+}
+
+.intro{
+  width: 30rem;
+  margin: 0 auto;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 350px;
+  top: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 400px;
+}
+
+.mountain {
+  position: absolute;
+  bottom: 0;
+  right: 30%;
+  height: 500px;
+  width: 600px;
+  text-align: center;
+}
+
+.center-heading{
+  font-size: 2rem;
+  margin: 10px auto 0;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+.skill-row{
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+}
+
+.coding{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.singing{
+  float:right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.profile{
+  width: 50%;
+  margin: 100px auto;
+}
+
+.bottom-container{
+  margin-top: 100px;
+  padding: 50px;
+  background-color: #66BFBF;
+}
+
+.footer-link{
+  margin: 40px;
+  color: #11999E;
+  text-decoration: none;
+}
+
+.copyright-description{
+  color: #EAF6F6;
+  padding: 20px auto;
+  font-size: 0.75rem;
+}
+
+.contact-heading{
+  font-size: 3rem;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.contact-description{
+  font-weight: bolder;
+}
+
+.contact-details{
+  width: 40%;
+  margin: 50px auto;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4a);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4a);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4a);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4a);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4a);
+  text-decoration: none;
+}
+/****************ID SELECTOR****************/
